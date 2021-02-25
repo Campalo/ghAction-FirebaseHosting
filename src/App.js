@@ -12,7 +12,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          It's working!
+          Deployed on Firebase Hosting after each push to master
         </a>
       </header>
     </div>
