@@ -12,7 +12,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Testing Github Action and Firebase Hosting
+          It's working!
         </a>
       </header>
     </div>
