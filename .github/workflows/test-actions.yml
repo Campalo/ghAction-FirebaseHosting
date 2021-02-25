@@ -1,0 +1,10 @@
+name: test-actions
+on: [push]
+jobs:
+  check-firebase-version:
+  runs-on: ubuntu-latest
+  steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@1
+    - run: npm install firebase-tools -g
+    - run: firebase --version
